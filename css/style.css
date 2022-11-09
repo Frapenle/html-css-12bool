@@ -9,19 +9,25 @@
     --bg-green: #00E164;
 }
 
+.fl-cc {
+    justify-content: center;
+    align-items: center;
+}
+
 [class^="col-"] {
     background-color: var(--bg-blue);
     color: white;
     border: 1px solid white;
     height: 50px;
-
-    /* testo centrato */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    line-height: 50px;
 }
 
-.row-nested {
+.nested {
     background-color: var(--bg-green);
-    height: 35px;
+    border: 2px solid red;
+}
+
+.m-t-10 {
+    margin-top: 10px;
 }
