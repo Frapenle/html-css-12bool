@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-blue: #006CFA;
+    --bg-green: #00E164;
+}
+
+[class^="col-"] {
+    background-color: var(--bg-blue);
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+
+    /* testo centrato */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-nested {
+    background-color: var(--bg-green);
+    height: 35px;
+}
