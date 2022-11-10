@@ -18,16 +18,36 @@
     background-color: var(--bg-blue);
     color: white;
     border: 1px solid white;
-    height: 50px;
     text-align: center;
     line-height: 50px;
 }
 
-.nested {
-    background-color: var(--bg-green);
-    border: 2px solid red;
+.row {
+    align-items: center;
+}
+
+.height {
+    height: 50px;
 }
 
 .m-t-10 {
-    margin-top: 10px;
+    margin-top: 25px;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.border {
+    border: 1px solid var(--bg-blue);
+}
+
+.nest {
+    background-color: var(--bg-green);
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
